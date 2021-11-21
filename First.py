@@ -73,7 +73,7 @@ def first_production(production):
             first[production[columns][row]] = first_value
         # if result production is two or more result
         else:     
-            # remote duplicate first
+            # remove duplicate first
             new_hasil_produksi = ""
             # remove duplicate first value 
             hasil_produksi = hasil_produksi.split(", ")
